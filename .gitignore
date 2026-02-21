@@ -1,0 +1,22 @@
+#  Python 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#  Environnement Virtuel 
+venv/
+.venv/
+env/
+
+#  Sauvegardes du Jeu 
+sauvegarde/*.json
+
+#  OS & IDE 
+.DS_Store
+.vscode/
+.idea/
+
+#  Divers 
+*.log
+*.ps
