@@ -19,7 +19,7 @@ def menu_principal():
 
     :return: (bool, bool) True si nouvelle partie, False sinon. True si une partie démarre, False si quitter
     """
-    fltk.image(400,400, "fichiers fournis/images/menu.png", 800,800)
+    fltk.image(400,400, "fichiers_fournis/images/menu.png", 800,800)
     while True:
         ev = fltk.attend_ev()
         x, y = fltk.abscisse(ev), fltk.ordonnee(ev)
@@ -322,7 +322,7 @@ def menu_final(grille_s, i_grille, j_grille, nom_sauv):
     
     """
     quitter = False
-    fltk.image(400,400, 'fichiers fournis/images/menu_f.png', 800, 800 )
+    fltk.image(400,400, 'fichiers_fournis/images/menu_f.png', 800, 800 )
     while quitter == False:
         ev = fltk.attend_ev()
         te = fltk.type_ev(ev)

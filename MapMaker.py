@@ -17,7 +17,7 @@ TAILLE_FENETRE = 80*TAILLE_GRILLE
 
 
 # Main
-dico_tuiles = (fu.cree_dico("fichiers fournis/tuiles"))
+dico_tuiles = (fu.cree_dico("fichiers_fournis/tuiles"))
 grille_a = [[None for _ in range(TAILLE_GRILLE)] for _ in range(TAILLE_GRILLE)]
 grille_s = [[None for _ in range(TAILLE_GRILLE)] for _ in range(TAILLE_GRILLE)]
 
